@@ -23,8 +23,7 @@ public class Cliente {
         //Fichero a transferir
         final String filename = "src/cliente/archivos/Prueba.txt";
 
-        try{
-            
+        try{            
             final File localFile = new File( filename );
             //******************************************************
             //Cambio de dirección para que podamos trabajar desde VB
